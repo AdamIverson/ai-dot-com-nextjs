@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import pic from '/public/next.svg'
 import flower from '/public/assets/56810001.jpg'
 
 export default function FirstPost() {
@@ -12,7 +11,8 @@ export default function FirstPost() {
       <Image src={flower}
         height={800}
         width={1200}
-        alt='' />
+        alt='flower'
+      />
     </div>
   )
 }
