@@ -9,8 +9,10 @@ export default function FirstPost() {
       <h1>First Post</h1>
       <Link href='/'>go back</Link>
       <br />
-      <Image src={pic} height={400} width={400} alt=''/>
-      <Image src={flower} height={400} width={500} alt=''/>
+      <Image src={flower}
+        height={800}
+        width={1200}
+        alt='' />
     </div>
   )
 }
