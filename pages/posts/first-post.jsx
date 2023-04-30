@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Profile from "../components/profile";
 
 export default function FirstPost() {
   return (
@@ -7,7 +6,7 @@ export default function FirstPost() {
       <h1>First Post</h1>
       <Link href='/'>go back</Link>
       <br />
-      <Profile />
+      {/* <Profile /> */}
     </div>
   )
 }
